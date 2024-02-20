@@ -94,11 +94,11 @@ mongoose.connection.on('error', function (err) {
 // Students.insertMany(estudiantesNuevos)
 //     .then(() => {
 //         console.log("Estudiantes añadidos");
-//         mongoose.disconnect(); // Desconectar de la base de datos una vez completada la inserción
+//         mongoose.disconnect(); 
 //     })
 //     .catch(error => {
 //         console.error("Error al añadir estudiantes:", error);
-//         mongoose.disconnect(); // Desconectar de la base de datos en caso de error
+//         mongoose.disconnect(); 
 //     });
 
 // mostrar todas las notas de un alumno
